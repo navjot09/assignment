@@ -1,0 +1,153 @@
+.nav {
+  background-color: #ffffff;
+  padding: 15px 45px;
+}
+
+.nav__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 36px;
+}
+
+.nav__item {
+  font-size: 24px;
+  color: #6a5acd;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.nav__item:hover {
+  color: #5a4cb0;
+  text-decoration: underline;
+}
+
+.meeting-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+}
+
+.details {
+  flex-grow: 1;
+}
+
+.action-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.meeting-card h2 {
+  color: #6a5acd;
+}
+
+.meeting-card p {
+  color: #333;
+}
+
+.buttons {
+  margin-top: 16px;
+}
+
+.buttons a {
+  display: inline-block;
+  padding: 8px 16px;
+  margin-right: 8px;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #6a5acd;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.buttons a:hover {
+  background-color: #4b0082;
+}
+.new-meeting-form {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.input,
+.textarea {
+  margin-top: 5px;
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+button {
+  background-color: #6a5acd;
+  color: #ffffff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #4b0082;
+}
+
+button.delete {
+  background-color: #ff6347;
+}
+
+button.delete:hover {
+  background-color: #cc0000;
+}
+
+.button {
+  background-color: #6a5acd;
+  color: #ffffff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.button:hover {
+  background-color: #4b0082;
+}
+
+.meeting-details-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.meeting-details-container .section {
+  margin-bottom: 20px;
+}
+
+.meeting-details-container h2 {
+  color: #6a5acd;
+}
+
+.meeting-details-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.meeting-details-container li {
+  margin-bottom: 8px;
+}
