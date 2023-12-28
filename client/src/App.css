@@ -91,7 +91,7 @@
   font-size: 18px;
 }
 
-button {
+.action-button {
   background-color: #6a5acd;
   color: #ffffff;
   padding: 10px;
@@ -100,15 +100,15 @@ button {
   cursor: pointer;
 }
 
-button:hover {
+.action-button:hover {
   background-color: #4b0082;
 }
 
-button.delete {
+.action-button.delete {
   background-color: #ff6347;
 }
 
-button.delete:hover {
+.action-button.delete:hover {
   background-color: #cc0000;
 }
 
